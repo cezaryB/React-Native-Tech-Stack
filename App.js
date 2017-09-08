@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Application from './src/application';
+import Application from './src/Application';
 
 export default class App extends Component {
   render() {
@@ -8,3 +8,4 @@ export default class App extends Component {
     );
   }
 }
+
