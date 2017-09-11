@@ -9,7 +9,7 @@ import LibraryList from './components/LibraryList';
 export default function Application() {
     return (
         <Provider store={createStore(reducers)}>
-            <View>
+            <View style={{ flex: 1 }}>
                 <Header title="Redux App" />
                 <LibraryList />
             </View>
